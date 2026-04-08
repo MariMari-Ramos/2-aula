@@ -1,33 +1,43 @@
-<!--Exercício: Minha Primeira Página HTML
-ok 1. Crie um arquivo chamado index.html e utilize as tags essenciais para estruturar corretamente sua página.
-2. O documento HTML deve conter as tags de estrutura básica
-3. A Página deverá suportar caracteres especiais
-4. O Título da página deve ser "Minha Primeira Página HTML"
--->
-
 <!DOCTYPE html>
-<!--
-	O DOCTYPE é um dtd ou é o Docuemente Type Definition. ele informa ao navegador o tipo de documento HTML que está sendo carregado, esteque estamos utilizando é a versão 5
--->
-
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Minha Primeira Página HTML</title>
-	</head>
-	<body>
-		<header>
-			<h1>Minha Primeira Página HTML</h1>
-		</header>
-		<main>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ESPORTE TOTAL</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<header>
+        <h1>ESPORTE TOTAL</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+				<li><a href="./paginas/futebol.html">Futebol</a></li>
+				<li><a href="./paginas/basquete.html">Basquete</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
 		<section>
-			<h2>Seção-1</h2>
-			<p>Essa pagina é apenas um teste de estrutura.</p>
+			<h2>Futebol</h2>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, atque labore ad vitae voluptatem
+				repellat optio officiis! Libero magni, sunt dignissimos similique, et possimus iusto vero quis earum
+				harum magnam.</p>
+			<a href="./paginas/futebol.html"">Mais...</a>
 		</section>
-		</main>
-		<footer>
-			<p>Minha Primeira Página &copy; - 2026</p>
-		</footer>
-	</body>
+		<section>
+			<h2>Basquete</h2>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, atque labore ad vitae voluptatem
+				repellat optio officiis! Libero magni, sunt dignissimos similique, et possimus iusto vero quis earum
+				harum magnam.</p>
+			<a href="./paginas/basquete.html"">Mais...</a>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2026 ESPORTE TOTAL. Todos os direitos reservados.</p>
+	</footer>
+</body>
+
 </html>
